@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "lms_project"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
