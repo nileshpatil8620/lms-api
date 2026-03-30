@@ -50,7 +50,7 @@ lms_project/
 ### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/your-username/lms-project.git
+git clone https://github.com/nileshpatil8620/lms-api.git
 cd lms-project
 ```
 
