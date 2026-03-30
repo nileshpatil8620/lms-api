@@ -6,7 +6,7 @@ A production-ready RESTful API built using Django and Django REST Framework for 
 
 ## 🚀 Features
 
-* 🔐 JWT Authentication (Login/Register)
+* 🔐 JWT Authentication (Register/Login/Logout)
 * 👥 Role-based access (Student / Librarian)
 * 📚 Book Management (CRUD)
 * ✍️ Author & Genre Management
