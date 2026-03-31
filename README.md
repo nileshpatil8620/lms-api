@@ -148,15 +148,14 @@ python manage.py runserver
 
 ### Borrow Management
 
-| Endpoint           | Method | Description                 |
-| ------------------ | ------ | --------------------------- |
-| /api/authors/      | GET    | List all authors            |
-| /api/authors/      | POST   | Create a new author         |
-| /api/authors/{id}/ | GET    | Retrieve a specific author  |
-| /api/authors/{id}/ | PUT    | Update an author            |
-| /api/authors/{id}/ | PATCH  | Partial update of an author |
-| /api/authors/{id}/ | DELETE | Delete an author            |
-
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /api/borrow/ | Request to borrow a book (student only) |
+| GET | /api/borrow/ | List all requests of current user |
+| PATCH | /api/borrow/<id>/approve/ | Approve borrow (librarian only) |
+| PATCH | /api/borrow/<id>/reject/ | Reject request (librarian only) |
+| PATCH | /api/borrow/<id>/return/ | Mark book as returned |
+Would you like me to help you draft the cURL commands or Python requests code to test these endpoints?
 
 ---
 
