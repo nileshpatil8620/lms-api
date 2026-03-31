@@ -152,9 +152,9 @@ python manage.py runserver
 |---|---|---|
 | /api/borrow/ | POST | Request to borrow a book (student only) |
 | /api/borrow/ | GET | List all requests of current user |
-| /api/borrow/<id>/approve/ | PATCH | Approve borrow (librarian only) |
-| /api/borrow/<id>/reject/ | PATCH | Reject request (librarian only) |
-| /api/borrow/<id>/return/ | PATCH | Mark book as returned |
+| /api/borrow/{id}/approve/ | PATCH | Approve borrow (librarian only) |
+| /api/borrow/{id}/reject/ | PATCH | Reject request (librarian only) |
+| /api/borrow/{id}/return/ | PATCH | Mark book as returned |
 
 ---
 
