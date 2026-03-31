@@ -160,7 +160,6 @@ python manage.py runserver
 
 ## 🔍 Filtering & Search
 
-```
 /api/books/?search=python
 /api/books/?ordering=title
 /api/books/?genres=1
