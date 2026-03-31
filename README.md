@@ -105,7 +105,7 @@ python manage.py runserver
 | /api/register/      | POST   | Register user                  |
 | /api/login/         | POST   | Login user (JWT)               |
 | /api/logout/        | POST   | Logout user                    |
-| /api/token/         | POST   | Get JWT access & refresh token |
+| /api/token/         | GET   | Get JWT access & refresh token |
 | /api/token/refresh/ | POST   | Refresh JWT token              |
 
 ---
