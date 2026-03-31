@@ -160,10 +160,12 @@ python manage.py runserver
 
 ## 🔍 Filtering & Search
 
-/api/books/?search=python
-/api/books/?ordering=title
-/api/books/?genres=1
-/api/books/?author=1
+| Endpoint | Method | Description |
+|---|---|---|
+| /api/books/?search=python | GET | Search books by keyword |
+| /api/books/?ordering=title | GET | Order books by title |
+| /api/books/?genres=1 | GET | Filter books by specific genre ID |
+| /api/books/?author=1 | GET | Filter books by specific author ID |
 
 ---
 
