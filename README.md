@@ -148,14 +148,13 @@ python manage.py runserver
 
 ### Borrow Management
 
-| Method | Endpoint | Description |
+| Endpoint | Method | Description |
 |---|---|---|
-| POST | /api/borrow/ | Request to borrow a book (student only) |
-| GET | /api/borrow/ | List all requests of current user |
-| PATCH | /api/borrow/<id>/approve/ | Approve borrow (librarian only) |
-| PATCH | /api/borrow/<id>/reject/ | Reject request (librarian only) |
-| PATCH | /api/borrow/<id>/return/ | Mark book as returned |
-Would you like me to help you draft the cURL commands or Python requests code to test these endpoints?
+| /api/borrow/ | POST | Request to borrow a book (student only) |
+| /api/borrow/ | GET | List all requests of current user |
+| /api/borrow/<id>/approve/ | PATCH | Approve borrow (librarian only) |
+| /api/borrow/<id>/reject/ | PATCH | Reject request (librarian only) |
+| /api/borrow/<id>/return/ | PATCH | Mark book as returned |
 
 ---
 
