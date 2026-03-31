@@ -120,7 +120,6 @@ python manage.py runserver
 | /api/books/      | POST   | Create a new book        |
 | /api/books/{id}/ | GET    | Retrieve a specific book |
 | /api/books/{id}/ | PUT    | Update a specific book   |
-| /api/books/{id}/ | PATCH  | Partial update of a book |
 | /api/books/{id}/ | DELETE | Delete a specific book   |
 
 
@@ -138,10 +137,6 @@ python manage.py runserver
 | ------------------ | ------ | --------------------------- |
 | /api/authors/      | GET    | List all authors            |
 | /api/authors/      | POST   | Create a new author         |
-| /api/authors/{id}/ | GET    | Retrieve a specific author  |
-| /api/authors/{id}/ | PUT    | Update an author            |
-| /api/authors/{id}/ | PATCH  | Partial update of an author |
-| /api/authors/{id}/ | DELETE | Delete an author            |
 
 
 ### Genres
@@ -150,10 +145,6 @@ python manage.py runserver
 | ------------------ | ------ | --------------------------- |
 | /api/authors/      | GET    | List all authors            |
 | /api/authors/      | POST   | Create a new author         |
-| /api/authors/{id}/ | GET    | Retrieve a specific author  |
-| /api/authors/{id}/ | PUT    | Update an author            |
-| /api/authors/{id}/ | PATCH  | Partial update of an author |
-| /api/authors/{id}/ | DELETE | Delete an author            |
 
 ### Borrow Management
 
